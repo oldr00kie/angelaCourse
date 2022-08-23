@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title> My contacts</title>
+  </head>
+  <body>
+    <p>
+      <h3>My contacts</h3>
+
+    <ul>
+      <li>panteleevich@skiff.com</li>
+      <li><a href="https://twitter.com/KuruSergey">@KuruSergey in twitter</a></li>
+      <li><a href="https://t.me/SergeyKuru">@SergeyKuru in Telegram</a></li>
+    </ul>
+    </p>
+
+
+    <form  action="mailto:panteleevich@skiff.com" method="post" enctype="text/plain">   <!-- Удаляем class  и добавляем enctype="text/plain" - в мыле убираются левые значки, остается только текст -->
+      <label >Your name</label>
+      <input type="text" name="userName" value=""> <br>
+      <label>Your email:</label>
+      <input type="email" name="userEmail" value=""><br>
+      <label>Your message</label><br>
+      <textarea name="userMessage" rows="10" cols="30"></textarea><br>
+      <input type="submit" name="">
+
+    </form>
+  </body>
+</html>
